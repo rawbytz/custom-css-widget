@@ -11,7 +11,7 @@
       }
     }
   }
-
+  
   function showCSSDialog(title, button1, button2) {
     const addButton = (num, name) => `<button type="button" class="btnX" id="btn${num.toString()}">${htmlEscText(name)}</button>`;
     const buttonStyle = '.btnX{font-size:18px;background-color:steelblue;border:2px solid;border-radius:20px;color:#fff;padding:5px 15px;margin-top:16px;margin-right:16px}.btnX:focus{border-color:#c4c4c4}';
