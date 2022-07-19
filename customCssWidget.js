@@ -1,6 +1,6 @@
-(function customCssWidget_0_1() {
+(function customCssWidget_0_2() {
 
-  const showEditDialog = () => ioc("dialogs").show("custom-css");
+  const showEditDialog = () => ioc("dialogs").show("dialogs:custom-css");
   const htmlEscText = str => str.replace(/&/g, "&amp;").replace(/>/g, "&gt;").replace(/</g, "&lt;").replace(/"/g, "&quot;");
   const toggleSheet = sheet => (sheet.disabled = !sheet.disabled);
 
