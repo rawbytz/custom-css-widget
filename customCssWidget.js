@@ -1,4 +1,4 @@
-(function customCssWidget_0_2() {
+(function customCssWidget_0_3() {
 
   const showEditDialog = () => ioc("dialogs").show("dialogs:custom-css");
   const htmlEscText = str => str.replace(/&/g, "&amp;").replace(/>/g, "&gt;").replace(/</g, "&lt;").replace(/"/g, "&quot;");
@@ -17,8 +17,10 @@
     const buttonStyle = '.btnX{font-size:18px;background-color:steelblue;border:2px solid;border-radius:20px;color:#fff;padding:5px 15px;margin-top:16px;margin-right:16px}.btnX:focus{border-color:#c4c4c4}';
     const buttons = addButton(1, button1) + addButton(2, button2);
     WF.showAlertDialog(`<style>${htmlEscText(buttonStyle)}</style><div>${buttons}</div>`, title);
-    setTimeout(() => {
-      const btn1 = document.getElementById("btn1");
+    const intervalId = setInterval(function () {
+      let btn1 = document.getElementById("btn1");
+      if (btn1) {
+      clearInterval(intervalId);
       const btn2 = document.getElementById("btn2");
       btn1.focus();
       btn1.onclick = () => {
@@ -29,7 +31,8 @@
       btn2.onclick = () => {
         showEditDialog();
       };
-    }, 100);
+      }
+    }, 50);
   }
   const focus = WF.focusedItem();
   const customSheet = getCustomStyleSheet();
