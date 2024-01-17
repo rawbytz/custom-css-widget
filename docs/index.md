@@ -1,7 +1,7 @@
 # Custom CSS Widget for WorkFlowy
 - This is the bookmarklet version (WFx not required).
 - This provides access to the UI for BETA testing this feature. 
-- [See this share for more info](https://workflowy.com/s/custom-css-widget/G2phovSRqMglPCnu).
+- [See this share for information on how to use](https://workflowy.com/s/custom-css-widget/G2phovSRqMglPCnu).
 
 
 ## Installation: Drag this link to your bookmarks bar:
