@@ -1,4 +1,4 @@
-(function customCssWidget_0_3() {
+(function customCssWidget_0_4() {
 
   const showEditDialog = () => ioc("dialogs").show("dialogs:custom-css");
   const htmlEscText = str => str.replace(/&/g, "&amp;").replace(/>/g, "&gt;").replace(/</g, "&lt;").replace(/"/g, "&quot;");
@@ -14,7 +14,7 @@
   
   function showCSSDialog(title, button1, button2) {
     const addButton = (num, name) => `<button type="button" class="btnX" id="btn${num.toString()}">${htmlEscText(name)}</button>`;
-    const buttonStyle = '.btnX{font-size:18px;background-color:steelblue;border:2px solid;border-radius:20px;color:#fff;padding:5px 15px;margin-top:16px;margin-right:16px}.btnX:focus{border-color:#c4c4c4}';
+    const buttonStyle = '.btnX{font-size:18px;background-color:gray;border:2px solid;border-radius:20px;color:#fff;padding:5px 15px;margin-top:16px;margin-right:16px}.btnX:focus,.btnX:hover{border-color:#c4c4c4;background-color:steelblue}';
     const buttons = addButton(1, button1) + addButton(2, button2);
     WF.showAlertDialog(`<style>${htmlEscText(buttonStyle)}</style><div>${buttons}</div>`, title);
     const intervalId = setInterval(function () {
