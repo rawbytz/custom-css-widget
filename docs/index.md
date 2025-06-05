@@ -1,8 +1,16 @@
 # Custom CSS Widget for WorkFlowy
 - This is the bookmarklet version (WFx not required).
-- This provides access to the UI for BETA testing this feature. 
-- [See this share for information on how to use](https://workflowy.com/s/custom-css-widget/G2phovSRqMglPCnu).
+- This provides access to the UI for BETA testing the Custom CSS feature. 
+- The Custom CSS will propagate to all your WorkFlowy clients: Web, Desktop Apps and Mobile Apps.
 
+## Instructions
+- This bookmarklet only works while viewing WorkFlowy in a desktop web browser. 
+- On first click, it checks if you have custom CSS, and if not, it opens this dialog where you can paste your CSS.
+- ![Popup Dialog](/docs/popup.png)
+- After you add CSS, you will see this dialog on first click:
+- ![Buttons dialog](/docs/dialog.png)
+- The first button always toggles your CSS between Disabled and Enabled states.
+- The Edit button always opens the edit CSS form. 
 
 ## Installation: Drag this link to your bookmarks bar:
 
