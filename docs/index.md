@@ -1,6 +1,5 @@
-# Custom CSS Widget for WorkFlowy
-- This is the bookmarklet version (WFx not required).
-- This provides access to the UI for BETA testing the Custom CSS feature. 
+# Custom CSS Widget for WorkFlowy Bookmarklet
+- This bookmarklet provides access to the UI for testing the BETA Custom CSS feature. 
 - The Custom CSS will propagate to all your WorkFlowy clients: Web, Desktop Apps and Mobile Apps.
 
 ## Instructions
