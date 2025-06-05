@@ -5,9 +5,9 @@
 ## Instructions
 - This bookmarklet only works while viewing WorkFlowy in a desktop web browser. 
 - On first click, it checks if you have custom CSS, and if not, it opens this dialog where you can paste your CSS.
-- ![Popup Dialog](/docs/popup.png)
+- ![Popup Dialog](https://imgur.com/UtZ9tXN.png)
 - After you add CSS, you will see this dialog on first click:
-- ![Buttons dialog](/docs/dialog.png)
+- ![Buttons dialog](https://imgur.com/f9GPILl.png)
 - The first button always toggles your CSS between Disabled and Enabled states.
 - The Edit button always opens the edit CSS form. 
 
