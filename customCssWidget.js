@@ -1,6 +1,6 @@
-(function customCssWidget_0_5() {
+(function customCssWidget_0_6() {
 
-  const showEditDialog = () => WF.Dialogs.show("dialogs:custom-css");
+  const showEditDialog = () => WF.CustomCss.__unstable_show();
   const htmlEscText = str => str.replace(/&/g, "&amp;").replace(/>/g, "&gt;").replace(/</g, "&lt;").replace(/"/g, "&quot;");
   const toggleSheet = sheet => (sheet.disabled = !sheet.disabled);
 
