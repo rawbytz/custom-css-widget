@@ -13,8 +13,7 @@
 - Remember to always reload WorkFlowy after making CSS changes.
 
 ## Version 
-  - 0.6 
-  - 2026-06-09
+  - 2026-06-09 v0.6 Fix editor popup again
 
 ## Installation: Drag this link to your bookmarks bar:
 
